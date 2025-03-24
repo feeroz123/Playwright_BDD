@@ -1,0 +1,1056 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-home-page-features;verify-web-application-loading",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify web application loading",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 7583411700,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the page title as \"EquipmentShare | Build With Control\"",
+            "match": {
+              "location": "src\\test\\steps\\common_steps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should see the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see the Cart button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-home-page-features;verify-user-button-contents",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify User button contents",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5001512500,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see the Sign Here link",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-home-page-features;verify-sign-in-page-navigation-from-user-button",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify Sign In page navigation from User button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 7536547399,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-home-page-features",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify Home Page features",
+    "tags": [],
+    "uri": "src\\test\\features\\homePage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 7398519299,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter \"testuser\" in the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Email validation message",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 101199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6237568100,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter \"testuser@testing\" in the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Email validation message",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6954511100,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter \"testing.com\" in the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Email validation message",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5950549800,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter \"abc@testing\" in the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Email validation message",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 230100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 4660694999,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter \"abc@testing.\" in the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Email validation message",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-features;verify-email-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Verify Email field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6051428599,
+              "error_message": "android.connect: Malformed endpoint. Did you use Android.launchServer method?\n    at World.<anonymous> (D:\\PERSONAL\\Repos\\LearningPlaywright\\Playwright_BDD\\src\\hooks\\hooks.ts:41:41)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the home page",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the User button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "src\\test\\steps\\home_steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be navigated to the Login page",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter \"@testing.com\" in the Email field",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Email validation message",
+            "match": {
+              "location": "src\\test\\steps\\login_steps.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page-features",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Page features",
+    "tags": [],
+    "uri": "src\\test\\features\\loginPage.feature"
+  }
+]

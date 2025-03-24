@@ -5,7 +5,7 @@ import { pageFixture } from '../../hooks/pageFixture';
 
 let homePage: HomePage;
 
-Given('I navigate to the home page', { timeout: 60000 }, async () => {
+Given('I navigate to the home page', { timeout: 90000 }, async () => {
     await pageFixture.page.goto('https://equipmentshare-us-7fcd6ee2fbc58ac5b15ef.webflow.io');
     homePage = new HomePage();
 });

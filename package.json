@@ -1,12 +1,16 @@
 {
   "devDependencies": {
     "@cucumber/cucumber": "^11.2.0",
-    "@playwright/test": "^1.51.1",
+    "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.11",
-    "playwright": "^1.51.1",
-    "ts-node": "^10.9.2"
+    "browserstack-local": "^1.5.6",
+    "cross-env": "^7.0.3",
+    "playwright": "^1.50.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   },
   "scripts": {
-    "test": "cucumber-js test"
+    "test": "cucumber-js test",
+    "bstack": "cross-env CONFIG_FILE=single ./node_modules/.bin/cucumber-js src/test/features/**/*.feature"
   }
 }

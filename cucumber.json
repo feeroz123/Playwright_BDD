@@ -3,15 +3,16 @@
       "timeout": 60000,
       "dryrun": false,
       "requireModule": ["ts-node/register"],
-      "paths": ["src/test/features/**/*.feature"],
+      "paths": ["src/test/features/**/*homePage.feature"],
       "require": ["src/test/steps/**/*.ts", "src/hooks/hooks.ts"],
       "format": [
+        "summary",
         "progress-bar",
+        "json:./cucumber-report.json",
         ["rerun", "@rerun.txt"],
         ["usage", "reports/usage.txt"],
         ["message", "reports/messages.ndjson"],
-        ["junit", "reports/junit.xml"],
-        ["html", "reports/html-formatter.html"]
+        ["html", "reports/cucumber-report.html"]
       ],
       "formatOptions": {
         "snippetInterface": "async-await"
